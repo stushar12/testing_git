@@ -1,0 +1,43 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.parent {
+    height: 100vh;
+    width: 100vw;
+    background-color: aquamarine;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.child1 {
+    background-color: crimson;
+    width: 270px;
+    height: 200px;
+}
+
+.child2 {
+    /* position: absolute; */
+    background-color: royalblue;
+    width: 250px;
+    height: 200px;
+}
+
+.child3 {
+    /* position: relative; */
+    background-color: thistle;
+    width: 290px;
+    height: 200px;
+}
+
+.child {
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    /* position: absolute; */
+    left: 100%;
+}
